@@ -1,4 +1,206 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
 body {
+  background-color: white;
+}
+
+.main_nav__logo {
+  background-color: white;
+}
+
+.main_nav__logo img {
+  background-color: #fffbfb;
+  padding: 5px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.main_nav__barregeolocalisation {
+  background: white;
+  background: -webkit-gradient(linear, left bottom, left top, from(white), color-stop(81%, #e7dbdb), to(#cfcfc8));
+  background: linear-gradient(0deg, white 0%, #e7dbdb 81%, #cfcfc8 100%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 20px;
+  padding: 25px;
+}
+
+.main_nav__barregeolocalisation .position {
+  position: relative;
+  right: 20px;
+}
+
+.guide {
+  background-color: cadetblue;
+  padding: 55px;
+}
+
+.class_align {
+  margin: -13px;
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+p {
+  margin-top: 15px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.select {
+  -webkit-box-shadow: 0px 0px 18px -5px #000000;
+          box-shadow: 0px 0px 18px -5px #000000;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #eb52c7), to(#a263eb));
+  background: linear-gradient(to bottom, #eb52c7 5%, #a263eb 100%);
+  background-color: #eb52c7;
+  border-radius: 37px;
+  display: block;
+  text-align: center;
+  cursor: pointer;
+  font-family: Arial;
+  font-size: 18px;
+  padding: 18px 11px;
+  margin-top: 25px;
+}
+
+.select:hover {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #a263eb), to(#eb52c7));
+  background: linear-gradient(to bottom, #a263eb 5%, #eb52c7 100%);
+  background-color: #a263eb;
+}
+
+.select:active {
+  position: relative;
+  border-radius: 35px;
+  top: 1px;
+}
+
+.button {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  height: 50px;
+  padding: 0;
+  border: none;
+  outline: none;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.footer__logo {
+  background-color: gray;
+}
+
+.choix {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  background-color: #d1ddd1;
+  font-size: 24px;
+  border-radius: 25px;
+  padding: 15px;
+  margin-left: 50px;
+  position: relative;
+}
+
+.button1__rank {
+  border: grey solid 2px;
+  border-radius: 50%;
+  color: hotpink;
   background-color: purple;
+  padding: 5px;
+  position: absolute;
+  left: -15px;
+  bottom: 15px;
+}
+
+.button1__rank:hover {
+  -webkit-box-shadow: rebeccapurple;
+          box-shadow: rebeccapurple;
+}
+
+.choix {
+  margin-bottom: 25px;
+}
+
+.bloc1 {
+  padding: 25px;
+}
+
+.item2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border: solid 2px #807b7b;
+  -webkit-box-shadow: 5px 5px 15px 5px #000000;
+          box-shadow: 5px 5px 15px 5px #000000;
+  border-radius: 25px 25px 0 0;
+}
+
+.item2 img {
+  width: 100%;
+  padding: 0px;
+  border-radius: 15px 15px 0 0;
+  height: 100%;
+  margin-bottom: -5px;
+}
+
+h2 {
+  padding-left: 15px;
+  padding-top: 15px;
+}
+
+.carditem {
+  padding-left: 15px;
+  padding-bottom: 15px;
+}
+
+.item4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  position: relative;
+  right: 15px;
+  top: -35px;
+  font-size: 35px;
+}
+
+.h_container {
+  background-color: #ddcfda;
+  border-radius: 20px;
+  -webkit-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+  width: 65px;
+  height: 35px;
+  text-align: center;
+  line-height: 45px;
+}
+
+#heart {
+  font-size: 25px;
+}
+
+#heart:active {
+  font-color: red;
 }
 /*# sourceMappingURL=style.css.map */
