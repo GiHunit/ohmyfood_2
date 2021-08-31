@@ -68,11 +68,110 @@
 
 .explain .explain__btn {
   color: white;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#e6d6df), to(#BB377D));
-  background-image: linear-gradient(to bottom, #e6d6df, #BB377D);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#e6d6df), to(#bb377d));
+  background-image: linear-gradient(to bottom, #e6d6df, #bb377d);
   border-radius: 25px;
   padding: 15px;
   border: transparent;
   margin-bottom: 20px;
+}
+
+.functioning {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 200px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 4px solid #b43ada;
+}
+
+.functioning .restaurant {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px;
+  width: 60%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: solid grey 4px;
+  border-radius: 20px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(purple), to(pink));
+  background-image: linear-gradient(to bottom, purple, pink);
+}
+
+.functioning .menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 60%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: solid grey 4px;
+  padding: 10px;
+  border-radius: 20px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(purple), to(pink));
+  background-image: linear-gradient(to bottom, purple, pink);
+}
+
+.functioning .taste {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 60%;
+  padding: 10px;
+  border: solid grey 4px;
+  border-radius: 20px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(purple), to(pink));
+  background-image: linear-gradient(to bottom, purple, pink);
+}
+
+.alacarte {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  width: 100%;
+  background-color: royalblue;
+  border: red 4px solid;
+}
+
+.card {
+  width: 300px;
+  border: solid grey 4px;
+  border-radius: 25px;
+}
+
+.card.card img {
+  width: 100%;
+  border-radius: 25px;
+}
+
+.card2 {
+  width: 300px;
+  height: 100px;
+  border: solid grey 4px;
+  border-radius: 25px;
+}
+
+.card2.card__img {
+  width: 400px;
+}
+
+.card2 .card2__img img {
+  width: 100%;
 }
 /*# sourceMappingURL=style.css.map */

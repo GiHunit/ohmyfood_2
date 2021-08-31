@@ -67,7 +67,6 @@ body {
 // EXPLAIN
 // *****************************
 .explain {
-  
   height: 350px;
   display: flex;
   background-color: rgba(235, 233, 230, 0.726);
@@ -81,18 +80,93 @@ body {
     padding: auto;
   }
 
-& .explain__btn{
-    color:white;
-      background-image: linear-gradient(to bottom,#e6d6df, #BB377D);
-      border-radius: 25px;
-      padding: 15px;
-      border: transparent;
-      margin-bottom: 20px;
-
+  & .explain__btn {
+    color: white;
+    background-image: linear-gradient(to bottom, #e6d6df, #bb377d);
+    border-radius: 25px;
+    padding: 15px;
+    border: transparent;
+    margin-bottom: 20px;
   }
 }
 
-
 // ************************************************
-// Fonctionnement 
+// Fonctionnement
 // **************************************************
+
+.functioning {
+  display: flex;
+  height: 200px;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border: $border1;
+
+  & .restaurant {
+    display: flex;
+    padding: 10px;
+    width: 60%;
+    justify-content: center;
+    border: $border;
+    border-radius: 20px;
+    background-image: linear-gradient(to bottom, purple, pink);
+  }
+
+  .menu {
+    display: flex;
+    width: 60%;
+    justify-content: center;
+    border: $border;
+    padding: 10px;
+    border-radius: 20px;
+    background-image: linear-gradient(to bottom, purple, pink);
+  }
+
+  .taste {
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    padding: 10px;
+    border: $border;
+    border-radius: 20px;
+    background-image: linear-gradient(to bottom, purple, pink);
+  }
+}
+
+// *************************************
+// Choix restaurant
+// ********************************
+.alacarte {
+  display: flex;
+  align-content: center;
+  width: 100%;
+  background-color: royalblue;
+  border: red 4px solid;
+}
+.card {
+  width: 300px;
+  border: $border;
+  border-radius: 25px;
+  &.card img {
+    width: 100%;
+    border-radius: 25px;
+  }
+}
+
+.card2 {
+  width: 300px;
+  height: 100px;
+  border: $border;
+  border-radius: 25px;
+&.card__img{
+    width: 400px;
+}
+  & .card2__img img {
+      width: 100%;
+  }
+
+//   & img {
+//     width: 80%;
+//     border-radius: 25px;
+//   }
+}
