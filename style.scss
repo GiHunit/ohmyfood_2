@@ -1,6 +1,12 @@
-$couleur: rgb(16, 163, 119);
-$border: solid grey 4px;
-$border1: 4px solid rgb(180, 58, 218);
+$couleurPrimary:#9356DC;
+$couleurSecondary:#FF79DA;
+$couleurtertiaire:#99E2d0;
+
+
+
+
+
+
 
 * {
   box-sizing: border-box;
@@ -39,7 +45,7 @@ body {
     // transform: scale(0.4, 0.5);
     width: 50%;
     text-align: center;
-    background-color: $couleur;
+    background-color: $couleurPrimary;
     padding: 20px;
 
     height: 100%;
@@ -52,7 +58,7 @@ body {
   //  position: absolute;
 
   padding: 15px;
-  background-color: $couleur;
+  background-color: $couleurPrimary;
 
   & .home__marker {
     position: relative;
@@ -82,7 +88,7 @@ body {
 
   & .explain__btn {
     color: white;
-    background-image: linear-gradient(to bottom, #e6d6df, #bb377d);
+   background-color: linear-gradient($couleurSecondary, $couleurPrimary, );
     border-radius: 25px;
     padding: 15px;
     border: transparent;
@@ -100,14 +106,14 @@ body {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  border: $border1;
+  
 
   & .restaurant {
     display: flex;
     padding: 10px;
     width: 60%;
     justify-content: center;
-    border: $border;
+    
     border-radius: 20px;
     background-image: linear-gradient(to bottom, purple, pink);
   }
@@ -116,7 +122,7 @@ body {
     display: flex;
     width: 60%;
     justify-content: center;
-    border: $border;
+  
     padding: 10px;
     border-radius: 20px;
     background-image: linear-gradient(to bottom, purple, pink);
@@ -127,7 +133,7 @@ body {
     justify-content: center;
     width: 60%;
     padding: 10px;
-    border: $border;
+    
     border-radius: 20px;
     background-image: linear-gradient(to bottom, purple, pink);
   }
@@ -145,28 +151,15 @@ body {
 }
 .card {
   width: 300px;
-  border: $border;
+  
   border-radius: 25px;
-  &.card img {
+  &.card img {  
     width: 100%;
     border-radius: 25px;
   }
 }
 
-.card2 {
-  width: 300px;
-  height: 100px;
-  border: $border;
-  border-radius: 25px;
-&.card__img{
-    width: 400px;
-}
-  & .card2__img img {
-      width: 100%;
-  }
 
-//   & img {
-//     width: 80%;
-//     border-radius: 25px;
-//   }
+.test{
+    color:$couleurPrimary;
 }
